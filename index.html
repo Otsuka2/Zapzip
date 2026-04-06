@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RGB Site</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+      overflow: hidden;
+
+      /* RGB Background */
+      background: linear-gradient(270deg, red, orange, yellow, green, cyan, blue, violet, red);
+      background-size: 1400% 1400%;
+      animation: rgbBG 15s ease infinite;
+    }
+
+    @keyframes rgbBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      padding: 40px 20px;
+    }
+
+    /* Card glow */
+    .card {
+      background: rgba(0,0,0,0.6);
+      border-radius: 15px;
+      padding: 15px;
+      margin: 20px auto;
+      max-width: 300px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.3);
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    /* Button RGB */
+    .btn {
+      display: inline-block;
+      margin: 15px 10px;
+      padding: 12px 25px;
+      color: white;
+      text-decoration: none;
+      border-radius: 10px;
+      font-weight: bold;
+      background: rgba(0,0,0,0.6);
+      box-shadow: 0 0 15px white;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 25px cyan;
+    }
+
+    h1 {
+      margin-top: 30px;
+      font-size: 28px;
+      text-shadow: 0 0 15px white;
+    }
+
+    p {
+      color: #eee;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <!-- Discord -->
+    <a href="https://discordapp.com/users/1153984326694883340" target="_blank" class="btn">
+      Discord
+    </a>
+
+    <!-- Gambar -->
+    <div class="card">
+      <img src="Wife.webp" alt="image">
+    </div>
+
+    <!-- Instagram -->
+    <a href="https://www.instagram.com/kimyohan969?igsh=aGptN2Ftdmgwdmpx" target="_blank" class="btn">
+      Instagram
+    </a>
+
+    <!-- Text -->
+    <h1>hi im still making this site</h1>
+    <p>so uhh theres nothing here yet</p>
+
+  </div>
+
+</body>
+</html>
